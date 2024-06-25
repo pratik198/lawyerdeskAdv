@@ -24,7 +24,7 @@ import Main from "./Components/Main/Main";
 import "./styles.css";
 import TopNavBar from "./Components/NavBar/TopNavBar";
 import QuestionPage from "./Components/QuestionPage/QuestionPage";
-
+import CaseFlow from "./Components/CaseFlow/CaseFlow";
 const App = () => {
   return (
     <Router>
@@ -34,6 +34,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/questions" element={<QuestionPage />} />
+            <Route path="/caseflow" element={<CaseFlow />} />
           </Routes>
         </div>
       </div>

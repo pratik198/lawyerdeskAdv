@@ -10,7 +10,7 @@ import {
   FaComment,
   FaBell,
 } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const TopNavBar = () => {
   return (
     <div className="top-nav-bar">
@@ -24,9 +24,11 @@ const TopNavBar = () => {
         <a href="#find-lawyers">
           <FaUserFriends className="icon" /> Find Lawyers
         </a>
-        <a href="#home" className="home-link">
-          <FaHome className="icon" /> Home
-        </a>
+        <Link to="/">
+          <a href="#home" className="home-link">
+            <FaHome className="icon" /> Home
+          </a>
+        </Link>
         <a href="#connections">
           <FaUserCircle className="icon" /> Connections
         </a>

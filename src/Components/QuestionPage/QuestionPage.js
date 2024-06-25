@@ -24,12 +24,29 @@ const QuestionPage = () => {
         <aside>
           <h2>Given Information</h2>
           <p>Text Entered</p>
+          {/* <ul>
+            <li>Case document.pdf</li>
+            <li>Case document.pdf</li>
+            <li>Case document.pdf</li>
+            <li>Case document.pdf</li>
+            <li>Case document.pdf</li>
+          </ul> */}
           <ul>
-            <li>Case document.pdf</li>
-            <li>Case document.pdf</li>
-            <li>Case document.pdf</li>
-            <li>Case document.pdf</li>
-            <li>Case document.pdf</li>
+            <li>
+              <Link to="/caseflow">Case document.pdf</Link>
+            </li>
+            <li>
+              <Link to="/caseflow">Case document.pdf</Link>
+            </li>
+            <li>
+              <Link to="/caseflow">Case document.pdf</Link>
+            </li>
+            <li>
+              <Link to="/caseflow">Case document.pdf</Link>
+            </li>
+            <li>
+              <Link to="/caseflow">Case document.pdf</Link>
+            </li>
           </ul>
         </aside>
         <section className="questions">

@@ -1,7 +1,7 @@
 // MainContent.js
 import React, { useState } from "react";
 import "./MainContent.css";
-
+import { Link } from "react-router-dom";
 const MainContent = () => {
   return (
     <div className="main_content">
@@ -26,9 +26,9 @@ const MainContent = () => {
           <div className="uploaded_file">Case document.docx</div>
         </div>
       </div>
-      <div className="start-button-container">
+      <Link to="/questions" className="start-button-container">
         <button>Start</button>
-      </div>
+      </Link>
     </div>
   );
 };
